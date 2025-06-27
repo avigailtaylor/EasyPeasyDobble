@@ -10,7 +10,7 @@ from PIL import Image
 
 cds=[0,1,3,10,14,26]
 
-vocabpics = ["input_pngs/vocab"+str(x+1)+"_pic.png" for x in range(31)] # Only made 6 pics so far!
+vocabpics = ["input_pngs/vocab"+str(x+1)+"_pic.png" for x in range(31)]
 
 for i in range(31):
     
