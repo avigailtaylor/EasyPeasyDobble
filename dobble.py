@@ -19,8 +19,6 @@ for i in range(31):
    
     dobble_card = Image.open("dobble_card_outline.png")
     
-    # first, picture side
-    
     img = Image.open(incremented_cds_pics[0])
     dobble_card.paste(img.rotate(180).resize((170,170)), (400, 400))
     
